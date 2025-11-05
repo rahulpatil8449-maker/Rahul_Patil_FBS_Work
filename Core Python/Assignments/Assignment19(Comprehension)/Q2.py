@@ -1,0 +1,6 @@
+# Find all of the numbers from 1–1000 that have a 6 in them
+
+
+num = [i for i in range(1, 1001) if '6' in str(i)]
+print(f'There are "{len(num)}" numbers having 6 in them between 1 to 1000')
+print(num)
